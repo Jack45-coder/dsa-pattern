@@ -24,7 +24,7 @@ public class ThreeSum {
                     st++;
                     end--;
 
-                    while (st < end && nums[i] == nums[i - 1]) {
+                    while (st < end && nums[st] == nums[st - 1]) {
                         st++;
                     }
                     while (st < end && nums[end] == nums[end + 1]) {
